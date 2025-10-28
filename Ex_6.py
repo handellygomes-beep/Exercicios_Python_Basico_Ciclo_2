@@ -17,3 +17,10 @@ alunos = {
 
 
 # LOOP FOR
+for aluno in alunos.keys():
+    soma = 0
+    media = 0
+    for nota in alunos[aluno]:
+        soma = soma + float(nota)
+media = soma / 4
+print(f'Aluno: {aluno} | media: {media:.2f}')

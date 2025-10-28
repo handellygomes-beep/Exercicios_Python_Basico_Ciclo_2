@@ -20,3 +20,6 @@ dados = {
     'data_ativacao_cancelamento' : ['10/12/1989', '05/06/2012']
 }
 
+for chave in dados:
+   
+    print(f'{chave} | tipo: {type(dados)}')

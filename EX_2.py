@@ -6,12 +6,14 @@ frutas = ['maçã', 'banana', 'morango', 'uva', 'laranja']
 
 # LOOP WHILE
 
-
+i = 0
+while i < len(frutas):
+    print(frutas[i])
+    i += 1
 
 
 
 
 # LOOP FOR
-
-
-
+for fruta in frutas:
+    print(fruta)

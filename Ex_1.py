@@ -3,12 +3,17 @@
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
 # LOOP WHILE
+numero = int(input("digite um numero"))
 
+cont = 0
+while cont <= numero:
+    print(cont)
+    cont = cont+1
 
 
 
 
 
 # LOOP FOR
-
-
+for n in range(numero+1): 
+ print(n)

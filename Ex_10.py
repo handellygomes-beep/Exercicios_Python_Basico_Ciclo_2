@@ -13,3 +13,7 @@ matriz = [
     [4,5,6],
     [7,8,9]
 ]
+
+for lista in matriz:
+    for i in lista:
+        print(i, end='')
